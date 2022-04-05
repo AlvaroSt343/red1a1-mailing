@@ -3,256 +3,250 @@
 
 html,
 body {
-  font-family: "Roboto";
+   font-family: "Roboto";
 }
 
 .container {
-  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
-  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 10px;
-  overflow: hidden;
+   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
+   -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
+   -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
+   margin-left: 10%;
+   margin-right: 10%;
+   border-radius: 10px;
+   overflow: hidden;
 }
 
 .contentContainer {
-  padding: 1.6rem;
+   padding: 1.6rem;
 }
 
 .titulo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3vw;
-  line-height: 5vw;
-  color: #e65a1f;
-  text-align: center;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 3vw;
+   line-height: 5vw;
+   color: #e65a1f;
+   text-align: center;
 }
 
 .subtitulo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2vw;
-  text-align: center;
-  color: #3f3d3d;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2vw;
+   text-align: center;
+   color: #3f3d3d;
 }
 
 .enlace {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 .purpleText {
-  color: #7149bc;
+   color: #7149bc;
 }
 
 .orangeText {
-  color: #e65a1f;
+   color: #e65a1f;
 }
 
 .orange2Text {
-  color: #ff902b;
+   color: #ff902b;
 }
 
 .id {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.7vw;
-  line-height: 2vw;
-  text-align: center;
-  color: #3f3d3d;
-  margin: 2vw;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.7vw;
+   line-height: 2vw;
+   text-align: center;
+   color: #3f3d3d;
+   margin: 2vw;
 }
 
 .content1 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8vw;
-  text-align: justify;
-  color: #3f3d3d;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.8vw;
+   text-align: justify;
+   color: #3f3d3d;
 }
 
 .seccion {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background-color: #7149bc;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   background-color: #7149bc;
 }
 
 .seccion2 {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background-color: #383838;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   background-color: #383838;
 }
 
 .seccion3 {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background-color: #7149bc;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   background-color: #7149bc;
 }
 
 .imgc {
-  width: 60vw;
-  padding-top: 0.5px;
+   width: 60vw;
+   padding-top: 0.5px;
 }
 
 .imgc2 {
-  width: 100vw;
-  padding-top: 0.5px;
-  padding-bottom: 0.5px;
+   width: 100vw;
+   padding-top: 0.5px;
+   padding-bottom: 0.5px;
 }
 
 .imgc3 {
-  width: 40vw;
-  padding-top: 0.5px;
+   width: 40vw;
+   padding-top: 0.5px;
 }
 
 .contentSeccion {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.5vw;
-  color: #ffffff;
-  padding: 0 25px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2.5vw;
+   color: #ffffff;
+   padding: 0 25px;
 }
 
 .contentSeccion2 {
-  font-style: normal;
-  font-weight: 500;
-  color: #ffffff;
-  padding: 0 25px;
+   font-style: normal;
+   font-weight: 500;
+   color: #ffffff;
+   padding: 0 25px;
 }
 
 .contentSeccion3 {
-  font-style: normal;
-  font-weight: 500;
-  color: #ffffff;
-  padding-left: 25px;
+   font-style: normal;
+   font-weight: 500;
+   color: #ffffff;
+   padding-left: 25px;
 }
 
 .tituloApp {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4.5vw;
-  color: #ff902b;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 4.5vw;
+   color: #ff902b;
 }
 
 .subApp {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 3vw;
-  color: #ffffff;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 3vw;
+   color: #ffffff;
 }
 
 .StoreApp {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2vw;
-  color: #ffffff;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2vw;
+   color: #ffffff;
 }
 
 .valign {
-  position: relative;
-  top: 40%;
-  transform: translateY(-50%);
+   position: relative;
+   top: 40%;
+   transform: translateY(-50%);
 }
 
 .valign3 {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
 }
 
 .footerAp {
-  background-color: #2D1260;
+   background-color: #2d1260;
 }
 
 .footContainer {
-  text-align: center;
-  padding: 1.5rem;
+   text-align: center;
+   padding: 1.5rem;
 }
 
 .footerlogo {
-  margin: 50px 0;
+   margin: 50px 0;
 }
 
 .ss {
-  display: flex;
-  justify-content: left;
-  margin: 20px 0;
+   display: inline-flex;
 }
 
 .footIcon img {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+   
 }
-
-.footitle {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 31.8803px;
-  line-height: 60px;
-  color: #FFFFFF;
-}
-
 .navlink {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 31.8803px;
-  color: #CACACA;
-  text-align: start;
-  padding: 15px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2vw;
+   color: #cacaca;
+   text-align: start;
+   padding: 15px;
+   border: 1px solid red;
+}
+.footitle {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 3vw;
+   color: #ffffff;
 }
 
 @media (max-width: 767px) {
-  .titulo {
-    font-size: 5.5vw;
-  }
+   .titulo {
+      font-size: 5.5vw;
+   }
 
-  .subtitulo {
-    font-size: 4vw;
-  }
+   .subtitulo {
+      font-size: 4vw;
+   }
 
-  .id {
-    font-size: 3.8vw;
-    margin: 5vw 0;
-  }
+   .id {
+      font-size: 3.8vw;
+      margin: 5vw 0;
+   }
 
-  .content1 {
-    font-size: 3vw;
-  }
+   .content1 {
+      font-size: 3vw;
+   }
 
-  .contentSeccion {
-    font-size: 3vw;
-  }
+   .contentSeccion {
+      font-size: 3vw;
+   }
 
-  .valign {
-    top: 40%;
-    transform: translateY(-50%);
-  }
+   .valign {
+      top: 40%;
+      transform: translateY(-50%);
+   }
 }
 
 @media (max-width: 620px) {
-  .content1 {
-    font-size: 3vw;
-  }
+   .content1 {
+      font-size: 3vw;
+   }
 
-  .imgc {
-    width: 70vw;
-  }
+   .imgc {
+      width: 70vw;
+   }
 
-  .imgc2 {
-    width: 100vw;
-  }
+   .imgc2 {
+      width: 100vw;
+   }
 
-  .imgStore {
-    width: 80%;
-  }
+   .imgStore {
+      width: 80%;
+   }
 }
 
 @media (max-width: 379px) {
-  .content1 {
-    font-size: 3.5vw;
-  }
+   .content1 {
+      font-size: 3.5vw;
+   }
 }
