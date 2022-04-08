@@ -10,10 +10,9 @@ body {
    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
    -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
    -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.42);
-   margin-left: 10%;
-   margin-right: 10%;
    border-radius: 10px;
    overflow: hidden;
+   width: 60%;
 }
 
 .contentContainer {
@@ -111,7 +110,7 @@ body {
 .contentSeccion {
    font-style: normal;
    font-weight: 400;
-   font-size: 2.5vw;
+   font-size: 2.2vw;
    color: #ffffff;
    padding: 0 25px;
 }
@@ -133,14 +132,14 @@ body {
 .tituloApp {
    font-style: normal;
    font-weight: 700;
-   font-size: 4.5vw;
+   font-size: 3vw;
    color: #ff902b;
 }
 
 .subApp {
    font-style: normal;
    font-weight: 500;
-   font-size: 3vw;
+   font-size: 2.3vw;
    color: #ffffff;
 }
 
@@ -173,30 +172,46 @@ body {
 }
 
 .footerlogo {
-   margin: 50px 0;
+   margin: 20px 0;
 }
 
 .ss {
-   display: inline-flex;
+   display: flex;
+   justify-content: center;
 }
 
 .footIcon img {
-   
+   margin-right: 20px;
 }
 .navlink {
    font-style: normal;
    font-weight: 400;
-   font-size: 2vw;
+   font-size: 1.8vw;
    color: #cacaca;
    text-align: start;
    padding: 15px;
-   border: 1px solid red;
 }
 .footitle {
    font-style: normal;
    font-weight: 700;
-   font-size: 3vw;
+   font-size: 2vw;
    color: #ffffff;
+}
+.socialN {
+   margin: 10px 0;
+}
+.foobottom {
+   color: #7149bc;
+   background-color: #230a52;
+   text-align: center;
+   padding: 20px;
+   font-size: 22px;
+}
+.socialIcons {
+   margin: 0 0.5rem;
+}
+.socialIcons img {
+   width: 4vw;
 }
 
 @media (max-width: 767px) {
@@ -225,9 +240,16 @@ body {
       top: 40%;
       transform: translateY(-50%);
    }
+   .container{
+      width: 80%;
+   }
 }
 
 @media (max-width: 620px) {
+   .container{
+      width: 100%;
+      margin: 10px 2vw;
+   }
    .content1 {
       font-size: 3vw;
    }
@@ -242,6 +264,24 @@ body {
 
    .imgStore {
       width: 80%;
+   }
+   .ss {
+      display: block;
+   }
+   .navlink {
+      font-size: 4vw;
+   }
+   .footitle {
+      font-size: 5vw;
+   }
+   .container {
+      margin: 1%;
+   }
+   .socialN {
+      margin: 0px 0;
+   }
+   .socialIcons img {
+      width: 10vw;
    }
 }
 

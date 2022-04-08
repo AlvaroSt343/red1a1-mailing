@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html,
+body {
+   font-family: "Roboto";
+}
+
+.cardcontacto {
+   max-width: 600px;
+   min-width: 320px;
+   background: #ffffff;
+   box-shadow: 0px 0px 12.2388px 4.70723px rgba(0, 0, 0, 0.07);
+   border-radius: 14.1217px;
+   overflow: hidden;
+}
+.cardcontainer {
+   padding: 1.5rem;
+}
+.title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 46px;
+   color: #000000;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+.carddatos {
+   background: #ffffff;
+   box-shadow: 0px 0px 12.2388px 4.70723px rgba(0, 0, 0, 0.07);
+   border-radius: 14.1217px;
+   padding: 1rem;
+}
+.content {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 43px;
+   color: #3f3d3d;
+}
+.footer {
+   background-color: #2d1260;
+}
+.footercontainer {
+   padding: 1.5rem;
+   text-align: center;
+}
+.footertitle {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 31.8803px;
+   color: #ffffff;
+   text-align: start;
+   margin-bottom: 10px;
+}
+.footercontent {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 31.8803px;
+   color: #cacaca;
+   text-align: start;
+   margin-bottom: 20px;
+}
+.footerlogo {
+   margin: 40px 0;
+}
+.footericons {
+   margin: 0 15px;
+}
+.footerbottom {
+   background-color: #230a52;
+   text-align: center;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 56px;
+   color: #cacaca;
+}
