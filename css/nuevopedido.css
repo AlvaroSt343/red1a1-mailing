@@ -6,10 +6,14 @@ body {
    font-family: "Roboto";
 }
 
+.greenC {
+   color: #13a407;
+}
+.purpleC {
+   color: #7149bc;
+}
+
 .maincard {
-   /* position: relative;
-   left: 50%;
-   transform: translateX(-50%); */
    max-width: 600px;
    min-width: 300px;
    background: #ffffff;
@@ -20,47 +24,52 @@ body {
 .cardcontainer {
    padding: 1.5rem;
 }
+.cardicon {
+   margin: 1.5rem 0;
+}
 .title {
    font-style: normal;
    font-weight: 700;
    font-size: 1.5vw;
    color: #000000;
    text-align: center;
-   margin-bottom: 2rem;
 }
+.subtitle {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 1.5vw;
+   margin: 1rem 0;
+}
+
+.Precio1 {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.5vw;
+   color: #5e5e5e;
+}
+.Precio2 {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.5vw;
+   color: #13a407;
+}
+
+.id {
+   background-color: #7149bc;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.5vw;
+   line-height: 70px;
+   color: #ffffff;
+}
+
 .carddatos {
    background: #ffffff;
    border: 1px solid #dbdbdb;
    border-radius: 14.1217px;
    overflow: hidden;
-}
-.tituloinmueble {
-   font-style: normal;
-   font-weight: 700;
-   font-size: 1.6vw;
-   color: #7149BC;
    text-align: center;
 }
-.descripcion {
-   text-align: center;
-   margin-top: 1rem;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 1.1vw;
-   color: #5e5e5e;
-}
-.click{
-   font-weight: bold;
-   text-decoration: none;
-   color: tomato;
-}
-.enlacered1{
-   font-weight: bold;
-   text-decoration: none;
-   color: #7149BC;
-}
-
-
 
 .footer {
    background-color: #2d1260;
@@ -108,11 +117,17 @@ body {
    .title {
       font-size: 3vw;
    }
-   .tituloinmueble{
+   .subtitle {
+      font-size: 2.5vw;
+   }
+   .Precio1 {
+      font-size: 2.5vw;
+   }
+   .Precio2 {
       font-size: 3vw;
    }
-   .descripcion{
-      font-size: 2.2vw;
+   .id {
+      font-size: 3vw;
    }
    .footertitle {
       font-size: 3vw;
@@ -125,12 +140,19 @@ body {
    .title {
       font-size: 5.5vw;
    }
-   .tituloinmueble{
+   .subtitle {
+      font-size: 5vw;
+   }
+   .Precio1 {
+      font-size: 5vw;
+   }
+   .Precio2 {
       font-size: 5.5vw;
    }
-   .descripcion{
-      font-size: 4.2vw;
+   .id {
+      font-size: 5vw;
    }
+
    .footertitle {
       font-size: 5vw;
    }
