@@ -7,10 +7,13 @@ body {
 }
 
 .cardcontacto {
+   /* position: relative;
+   left: 50%;
+   transform: translateX(-50%); */
    max-width: 600px;
-   min-width: 320px;
+   min-width: 300px;
    background: #ffffff;
-   box-shadow: 0px 0px 12.2388px 4.70723px rgba(0, 0, 0, 0.07);
+   border: 1px solid #dbdbdb;
    border-radius: 14.1217px;
    overflow: hidden;
 }
@@ -20,7 +23,7 @@ body {
 .title {
    font-style: normal;
    font-weight: 700;
-   font-size: 32px;
+   font-size: 1.5vw;
    line-height: 46px;
    color: #000000;
    text-align: center;
@@ -28,16 +31,17 @@ body {
 }
 .carddatos {
    background: #ffffff;
-   box-shadow: 0px 0px 12.2388px 4.70723px rgba(0, 0, 0, 0.07);
+   border: 1px solid #dbdbdb;
    border-radius: 14.1217px;
    padding: 1rem;
 }
 .content {
    font-style: normal;
    font-weight: 400;
-   font-size: 24px;
-   line-height: 43px;
+   font-size: 1.2vw;
+   line-height: 2vw;
    color: #3f3d3d;
+   hyphens: auto;
 }
 .footer {
    background-color: #2d1260;
@@ -49,7 +53,7 @@ body {
 .footertitle {
    font-style: normal;
    font-weight: 700;
-   font-size: 31.8803px;
+   font-size: 1.8vw;
    color: #ffffff;
    text-align: start;
    margin-bottom: 10px;
@@ -57,7 +61,7 @@ body {
 .footercontent {
    font-style: normal;
    font-weight: 400;
-   font-size: 31.8803px;
+   font-size: 1.5vw;
    color: #cacaca;
    text-align: start;
    margin-bottom: 20px;
@@ -68,6 +72,9 @@ body {
 .footericons {
    margin: 0 15px;
 }
+.contenticons {
+   padding-right: 0.5rem;
+}
 .footerbottom {
    background-color: #230a52;
    text-align: center;
@@ -76,4 +83,38 @@ body {
    font-size: 17px;
    line-height: 56px;
    color: #cacaca;
+}
+
+@media (max-width: 1000px) {
+   .title {
+      font-size: 3vw;
+   }
+   .content {
+      font-size: 2.5vw;
+      line-height: 3vw;
+   }
+   .footertitle {
+      font-size: 3vw;
+   }
+   .footercontent {
+      font-size: 2.5vw;
+   }
+}
+@media (max-width: 600px) {
+   .title {
+      font-size: 5.5vw;
+   }
+   .content {
+      font-size: 4vw;
+      line-height: 5vw;
+   }
+   .footertitle {
+      font-size: 5vw;
+   }
+   .footercontent {
+      font-size: 4.5vw;
+   }
+   .footerlogo {
+      width: 60%;
+   }
 }
