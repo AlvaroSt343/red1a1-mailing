@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html,
+body {
+   font-family: "Roboto";
+}
+
+.greenC {
+   color: #13a407;
+}
+.purpleC {
+   color: #7149bc;
+}
+.redC {
+   color: #ff3030;
+}
+
+.maincard {
+   max-width: 600px;
+   min-width: 300px;
+   background: #ffffff;
+   border: 1px solid #dbdbdb;
+   border-radius: 14.1217px;
+   overflow: hidden;
+}
+.cardcontainer {
+   padding: 1.5rem;
+}
+.cardicon {
+   margin: 1.5rem 0;
+}
+.title {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.5vw;
+   color: #000000;
+   text-align: center;
+}
+
+.carddatos {
+   background: #ffffff;
+   border: 1px solid #dbdbdb;
+   border-radius: 14.1217px;
+   overflow: hidden;
+   text-align: center;
+}
+.tituloinmueble {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 1.6vw;
+   color: #7149bc;
+   text-align: center;
+}
+.descripcion {
+   text-align: center;
+   margin-top: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.1vw;
+   color: #5e5e5e;
+}
+.click {
+   font-weight: bold;
+   text-decoration: none;
+   color: tomato !important;
+}
+.enlacered1 {
+   font-weight: bold;
+   text-decoration: none;
+   color: #7149bc !important;
+}
+
+.footer {
+   background-color: #2d1260;
+}
+.footercontainer {
+   padding: 1.5rem;
+   text-align: center;
+}
+.footertitle {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 1.8vw;
+   color: #ffffff;
+   text-align: start;
+   margin-bottom: 10px;
+}
+.footercontent {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5vw;
+   color: #cacaca;
+   text-align: start;
+   margin-bottom: 20px;
+}
+.footerlogo {
+   margin: 40px 0;
+}
+.footericons {
+   margin: 0 15px;
+}
+.contenticons {
+   padding-right: 0.5rem;
+}
+.footerbottom {
+   background-color: #230a52;
+   text-align: center;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 56px;
+   color: #cacaca;
+}
+.descripcion {
+   text-align: center;
+   margin-top: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.1vw;
+   color: #5e5e5e;
+}
+
+@media (max-width: 1000px) {
+   .title {
+      font-size: 3vw;
+   }
+   .tituloinmueble {
+      font-size: 3vw;
+   }
+   .descripcion {
+      font-size: 2vw;
+   }
+   .footertitle {
+      font-size: 3vw;
+   }
+   .footercontent {
+      font-size: 2.5vw;
+   }
+}
+@media (max-width: 600px) {
+   .title {
+      font-size: 5.5vw;
+   }
+   .tituloinmueble {
+      font-size: 5vw;
+   }
+   .descripcion {
+      font-size: 4vw;
+   }
+   .footertitle {
+      font-size: 5vw;
+   }
+   .footercontent {
+      font-size: 4.5vw;
+   }
+   .footerlogo {
+      width: 60%;
+   }
+}
